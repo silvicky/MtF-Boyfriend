@@ -1,4 +1,4 @@
-echo OIer Dream by VinF > result.txt
+echo 我男朋友是药娘 by VinF > result.txt
 echo: >> result.txt
 echo: >> result.txt
 set vol=1
