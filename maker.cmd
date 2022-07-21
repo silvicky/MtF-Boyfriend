@@ -32,14 +32,6 @@ goto extramk
 echo: >> result.txt
 echo: >> result.txt
 echo: >> result.txt
-copy /b result.txt+".\branch\info.txt" result.txt
-echo: >> result.txt
-echo: >> result.txt
-echo: >> result.txt
-for %%a in (.\branch\???.txt) do copy /b result.txt+%%a result.txt&&echo: >> result.txt&&echo: >> result.txt
-echo: >> result.txt
-echo: >> result.txt
-echo: >> result.txt
 copy /b result.txt+".\other\info.txt" result.txt
 echo: >> result.txt
 echo: >> result.txt
